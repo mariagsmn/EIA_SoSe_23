@@ -3,7 +3,7 @@ Aufgabe: L01_Zufallsgedicht
 Name: Maria Gassmann
 Matrikel: 272226
 Datum: 23.03.23
-Quellen: Nico Pfrengle, Hannah Brauner 
+Quellen: Nico Pfrengle  
 */
 
 
