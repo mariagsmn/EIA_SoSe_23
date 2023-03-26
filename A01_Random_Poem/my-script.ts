@@ -23,7 +23,6 @@ namespace RandomPoem {
         //console.log(sentence);
     }
 
-
     function getVerse(_subjects: string[], _predicates: string[], _objects: string[]): string { // Funktion wird aufgerufen, erwartet 3 Parameter vom Typ string[], zurück gibt sie einen string (letztes Wort)
         let randNum: number = Math.floor(Math.random() * _subjects.length); // der Variable zugewiesen, dann kann man Wert ausgeben
         //console.log(_subjects[randNum]);
