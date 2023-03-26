@@ -11,7 +11,7 @@ namespace RandomPoem {
 
     let subjects: string[] = ["Harry", "Hermine", "Ron", "Hagrid", "Snape", "Dumbledore"];
     let predicates: string[] = ["braut", "liebt", "studiert", "hasst", "zaubert", "zerstört"];
-    let objects: string[] = ["Zaubertränke", "den Grimm", "Lupin", "Hogarts", "die Karte des Rumtreibers", "Dementoren"]; // Variablen, die außerhalb der Funktion deklariert werden
+    let objects: string[] = ["Zaubertränke", "den Grimm", "Lupin", "Hogwarts", "die Karte des Rumtreibers", "Dementoren"]; // Variablen, die außerhalb der Funktion deklariert werden
 
     //console.log(subjects);
     //console.log(predicates);
