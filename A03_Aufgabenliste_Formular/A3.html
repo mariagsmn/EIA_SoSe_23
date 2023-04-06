@@ -3,7 +3,7 @@
 <head>
   <title>Tabelle mit 5 Spalten</title>
   <link rel="stylesheet" href="A3-style.css">
-  <script src="A3-script.ts"></script>
+  <script src="A3-script.js"></script>
 </head>
 <body>
     <h1>Haushaltsplan</h1>
@@ -32,115 +32,117 @@
     </div>
 
     <div class="column">
-      <h3>Datum, Uhrzeit</h3>
-      <div class="cell"><input type="time" id="date"></div>
+      <h3>Uhrzeit, Datum</h3>
+      <div class="cell">
+        <input type="time" id="time">
+        <input type="date" id="date">
+      </div>
       <br>
-      <div class="cell"><input type="time" id="date"></div>
+      <div class="cell">
+        <input type="time" id="time">
+        <input type="date" id="date">
+      </div>
       <br>
-      <div class="cell"><input type="time" id="date"></div>
+      <div class="cell">
+        <input type="time" id="time">
+        <input type="date" id="date">
+      </div>
       <br>
-      <div class="cell"><input type="time" id="date"></div>
+      <div class="cell">
+        <input type="time" id="time">
+        <input type="date" id="date">
+      </div>
       <br>
-      <div class="cell"><input type="time" id="date"></div>
+      <div class="cell">
+        <input type="time" id="time">
+        <input type="date" id="date">
+      </div>
       <br>
-      <div class="cell"><input type="time" id="date"></div>
+      <div class="cell">
+        <input type="time" id="time">
+        <input type="date" id="date">
+      </div>
       <br>
-      <div class="cell"><input type="time" id="date"></div>
+      <div class="cell">
+        <input type="time" id="time">
+        <input type="date" id="date">
+      </div>
       <br>
-      <div class="cell"><input type="time" id="date"></div>
+      <div class="cell">
+        <input type="time" id="time">
+        <input type="date" id="date">
+      </div>
       <br>
-      <div class="cell"><input type="time" id="date"></div>
+      <div class="cell">
+        <input type="time" id="time">
+        <input type="date" id="date">
+      </div>
       <br>
-      <div class="cell"><input type="time" id="date"></div>
+      <div class="cell">
+        <input type="time" id="time">
+        <input type="date" id="date">
+      </div>
+      <br>
+
     </div>
 
     <div class="column">
       <h3>In Bearbeitung?</h3>
       <div class="cell">
-        <select id="in_process">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-        </select> 
+        <input type="radio" id="done">Ja
+        <input type="radio" id="not_done">Nein
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-        </select> 
+        <input type="radio" id="done">Ja
+        <input type="radio" id="not_done">Nein
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-        </select> 
+        <input type="radio" id="done">Ja
+        <input type="radio" id="not_done">Nein
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-        </select> 
+        <input type="radio" id="done">Ja
+        <input type="radio" id="not_done">Nein
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-        </select> 
+        <input type="radio" id="done">Ja
+        <input type="radio" id="not_done">Nein
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-        </select> 
+        <input type="radio" id="done">Ja
+        <input type="radio" id="not_done">Nein
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-        </select> 
+        <input type="radio" id="done">Ja
+        <input type="radio" id="not_done">Nein
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-        </select> 
+        <input type="radio" id="done">Ja
+        <input type="radio" id="not_done">Nein
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-        </select> 
+        <input type="radio" id="done">Ja
+        <input type="radio" id="not_done">Nein
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-        </select> 
+        <input type="radio" id="done">Ja
+        <input type="radio" id="not_done">Nein
       </div>
     </div>
 
     <div class="column">
       <h3>Wer erledigt?</h3>
       <div class="cell">
-        <select id="in_process">
+        <select id="who">
             <option value="Max">Max</option>
             <option value="Eva">Eva</option>
             <option value="Anna">Anna</option>
@@ -148,7 +150,7 @@
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
+        <select id="who">
             <option value="Max">Max</option>
             <option value="Eva">Eva</option>
             <option value="Anna">Anna</option>
@@ -156,7 +158,7 @@
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
+        <select id="who">
             <option value="Max">Max</option>
             <option value="Eva">Eva</option>
             <option value="Anna">Anna</option>
@@ -164,7 +166,7 @@
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
+        <select id="who">
             <option value="Max">Max</option>
             <option value="Eva">Eva</option>
             <option value="Anna">Anna</option>
@@ -172,7 +174,7 @@
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
+        <select id="who">
             <option value="Max">Max</option>
             <option value="Eva">Eva</option>
             <option value="Anna">Anna</option>
@@ -180,7 +182,7 @@
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
+        <select id="who">
             <option value="Max">Max</option>
             <option value="Eva">Eva</option>
             <option value="Anna">Anna</option>
@@ -188,7 +190,7 @@
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
+        <select id="who">
             <option value="Max">Max</option>
             <option value="Eva">Eva</option>
             <option value="Anna">Anna</option>
@@ -196,7 +198,7 @@
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
+        <select id="who">
             <option value="Max">Max</option>
             <option value="Eva">Eva</option>
             <option value="Anna">Anna</option>
@@ -204,7 +206,7 @@
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
+        <select id="who">
             <option value="Max">Max</option>
             <option value="Eva">Eva</option>
             <option value="Anna">Anna</option>
@@ -212,7 +214,7 @@
       </div>
       <br>
       <div class="cell">
-        <select id="in_process">
+        <select id="who">
             <option value="Max">Max</option>
             <option value="Eva">Eva</option>
             <option value="Anna">Anna</option>
