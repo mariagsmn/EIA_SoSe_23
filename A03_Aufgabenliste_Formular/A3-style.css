@@ -14,14 +14,19 @@ body{
 
 h1 {
     text-align: center;
-    color: #696969;
+    color: #535f78;
 }
 
 h3{
     text-align: center;
+    color:#6499ce
 }
 
 .cell {
     text-align: center;
+    color: #ffffff;
+    background-color: rgb(134, 132, 132) ;
+    border-radius: 6px;
+    padding: 5px;
 }
 
