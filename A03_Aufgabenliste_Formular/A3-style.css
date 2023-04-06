@@ -1,0 +1,27 @@
+body{
+    background-color: aliceblue;
+}
+
+.table {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #9a6f6f;
+  }
+
+h1 {
+    text-align: center;
+    color: #696969;
+}
+
+h3{
+    text-align: center;
+}
+
+.cell {
+    text-align: center;
+}
+
