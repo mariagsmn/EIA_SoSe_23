@@ -1,0 +1,21 @@
+body{
+  background-color: aliceblue;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+th,td {
+  border: 2px solid #56526b;
+  background-color: rgb(159, 159, 195);
+  padding: 10px;
+  text-align: middle;
+}
+
+h1{
+  text-align: center;
+  color: #535f78;
+}
