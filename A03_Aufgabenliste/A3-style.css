@@ -1,5 +1,5 @@
 body{
-  background-color: aliceblue;
+  background-color: rgb(171, 179, 186);
 }
 
 table {
@@ -7,15 +7,15 @@ table {
   border-collapse: collapse;
 }
 
-
 th,td {
-  border: 2px solid #56526b;
-  background-color: rgb(159, 159, 195);
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(204, 166, 166);
   padding: 10px;
-  text-align: middle;
+  text-align: center;
+  color: antiquewhite;
 }
 
 h1{
   text-align: center;
-  color: #535f78;
+  color: rgb(245, 197, 197);
 }
