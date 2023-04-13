@@ -3,7 +3,7 @@ namespace A03 {
     window.addEventListener("load", handleLoad)
 
     function handleLoad():void{
-        let task: HTMLElement = document.querySelector(".task")
+        let task = document.querySelector(".task")
         task.addEventListener("change", handleTask)
         
         let date: HTMLElement = document.querySelector("#date")
@@ -52,17 +52,5 @@ namespace A03 {
     function handleComment():void{
         console.log("Kommentar wurde hinzugefügt");
     }
-
-
-
-
-
-
-
-
-
-
-
-    
 
 }

@@ -4,13 +4,13 @@ var A03;
     function handleLoad() {
         let task = document.querySelector(".task");
         task.addEventListener("change", handleTask);
-        let date = document.querySelector("#date");
+        let date = document.querySelector(".date");
         date.addEventListener("change", handleDate);
         let time = document.querySelector(".time");
         time.addEventListener("change", handleTime);
-        let finished = document.querySelector(".finished");
+        let finished = document.querySelector(".in_process");
         finished.addEventListener("change", handleFinished);
-        let not_finished = document.querySelector(".not_finished");
+        let not_finished = document.querySelector(".not_in_process");
         not_finished.addEventListener("change", handleNotFinished);
         let who = document.querySelector(".who");
         who.addEventListener("click", handleWhoDitIt);
@@ -27,10 +27,10 @@ var A03;
         console.log("Zeit wurde geändert");
     }
     function handleFinished() {
-        console.log("Aufgabe wurde erledigt");
+        console.log("Aufgabe wird erledigt");
     }
     function handleNotFinished() {
-        console.log("Aufgabe wurde nicht erledigt");
+        console.log("Aufgabe noch nicht erledigt");
     }
     function handleWhoDitIt() {
         console.log("Es wurde ausgewählt, von wem die Aufgabe bearbeitet wird");
@@ -39,4 +39,4 @@ var A03;
         console.log("Kommentar wurde hinzugefügt");
     }
 })(A03 || (A03 = {}));
-//# sourceMappingURL=A3-script.js.map
+//# sourceMappingURL=A3.js.map

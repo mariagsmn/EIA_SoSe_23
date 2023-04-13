@@ -1,170 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>A03</title>
-  <link rel="stylesheet" href="A3-style.css">
-  <script src="A3-script.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8" />
+	<title>A3</title>
+	<link rel="stylesheet" href="A3.css" media="screen"/>
+	<script src="A3.js"></script>
+    <script src="A3.1.ts"></script>
 </head>
+
 <body>
-  <h1>Haushaltsplan</h1>
-  
-  <table>
-    
-    <thead>
-      <tr>
-        <th>Titel Aufgabe</th>
-        <th>Uhrzeit, Datum</th>
-        <th>In Bearbeitung? </th>
-        <th>Wer erledigt? </th>
-        <th>Kommentar/weitere Infos</th>
-      </tr>
-    </thead>
-    
-    <tbody>
+	<header>
+		<h1>WG Plan</h1>
+	</header>
 
-      <div class="line_one">
-        <tr>
-          <td><input type="text" class="task"></td>
-          
-          <td>
-            <input type="time" class="time">
-            <input type="date" class="date">
-          </td>
-          
-          <td>
-            <input class="finished" type="radio" class="done">Ja
-            <input class="not_finished" type="radio" class="not_done">Nein
-          </td>
-          
-          <td>
-            <select class="who">
-              <option value="Max">Max</option>
-              <option value="Eva">Eva</option>
-              <option value="Anna">Anna</option>
-            </select>
-          </td>
-          
-          <td><input type="text" class="comment"></td>
-
-          <td><i style="font-size:24px" class="fa">&#xf014;</i></td>
-        </tr>
-      </div>
-     
-      <div class="line_two">
-      <tr>
-        <td><input type="text" class="task"></td>
+	<form>
+		<div class="form1" id="form">
+            <fieldset>
+				<legend>Titel Aufgabe</legend>
+                <input type="text" class="task">
+			</fieldset>
+			<fieldset>
+				<legend>Wer erledigt?</legend>
+				<select class="who">
+					<option value="maja">Maja</option>
+					<option value="johannes">Jojo</option>
+					<option value="theresa">Theresa</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Bis wann?</legend>
+                <input type="time" class="time">
+                <input type="date" class="date">
+			</fieldset>
+			<fieldset>
+				<legend>In Bearbeitung?</legend>
+				<input type="radio" class="in_process">Ja
+                <input type="radio" class="not_in_process">Nein
+			</fieldset>
+			<fieldset>
+				<legend>Kommentar</legend>
+                <input type="text" class="comment">
+			</fieldset>
         
-        <td>
-          <input type="time" class="time">
-          <input type="date" class="date">
-        </td>
-        
-        <td>
-          <input class="finished" type="radio" class="done">Ja
-          <input class="not_finished" type="radio" class="not_done">Nein
-        </td>
-        
-        <td>
-          <select class="who">
-            <option value="Max">Max</option>
-            <option value="Eva">Eva</option>
-            <option value="Anna">Anna</option>
-          </select>
-        </td>
-        
-        <td><input type="text" class="comment"></td>
+		</div>
+	</form>
+    <div>
+        <button>add</button>
+    </div>
 
-        <td><i style="font-size:24px" class="fa">&#xf014;</i></td>
-      </tr>
-      </div>
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 
-      <div class="line_three">
-        <tr>
-          <td><input type="text" class="task"></td>
-          
-          <td>
-            <input type="time" class="time">
-            <input type="date" class="date">
-          </td>
-          
-          <td>
-            <input class="finished"  type="radio" class="done">Ja
-            <input class="not_finished" type="radio" class="not_done">Nein
-          </td>
-          
-          <td>
-            <select class="who">
-              <option value="Max">Max</option>
-              <option value="Eva">Eva</option>
-              <option value="Anna">Anna</option>
-            </select>
-          </td>
-          
-          <td><input type="text" class="comment"></td>
-
-          <td><i style="font-size:24px" class="fa">&#xf014;</i></td>
-        </tr>
-      </div>
-
-      <div class="line_four">
-        <tr>
-          <td><input type="text" class="task"></td>
-          
-          <td>
-            <input type="time" class="time">
-            <input type="date" class="date">
-          </td>
-          
-          <td>
-            <input class="finished" type="radio" class="done">Ja
-            <input class="not_finished" type="radio" class="not_done">Nein
-          </td>
-          
-          <td>
-            <select class="who">
-              <option value="Max">Max</option>
-              <option value="Eva">Eva</option>
-              <option value="Anna">Anna</option>
-            </select>
-          </td>
-
-          <td><input type="text" class="comment"></td>
-
-          <td><i style="font-size:24px" class="fa">&#xf014;</i></td>
-        </tr>
-      </div>
-     
-      <div class="line_five">
-        <tr>
-          <td><input type="text" class="task"></td>
-          
-          <td>
-            <input type="time" class="time">
-            <input type="date" class="date">
-          </td>
-          
-          <td>
-            <input class="finished" type="radio" class="done">Ja
-            <input class="not_finished" type="radio" class="not_done">Nein
-          </td>
-          
-          <td>
-            <select class="who">
-              <option value="Max">Max</option>
-              <option value="Eva">Eva</option>
-              <option value="Anna">Anna</option>
-            </select>
-          </td>
-
-          <td><input type="text" class="comment"></td>
-          
-          <td><i style="font-size:24px" class="fa">&#xf014;</i></td>
-        </tr>
-      </div>
-
-    </tbody>
-  </table>
 </body>
-</html>
 
+</html>
